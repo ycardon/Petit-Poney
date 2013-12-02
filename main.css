@@ -1,0 +1,137 @@
+html{
+    font-family:fantasy;
+    background-color:#4a4a4a;
+    color: white
+}
+ 
+.item {
+    padding-left:50px;
+}
+
+
+body {
+    margin: 0 auto;
+    padding: 2em;
+    max-width: 800px;
+    -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+    background-color:black
+}
+
+img.photodemo {
+    width:40%;
+    position:fixed;
+    top:10px;
+    right:120px;
+    
+    
+}
+
+/* tabeaux */
+        
+dl {
+	margin: 2em 0;
+	padding: 0;
+}
+	
+dt {
+	position: relative;
+	left: 0;
+	top: 1.1em;
+	width: 10em;
+	font-weight: bold;
+}
+	
+dd {
+	border-left: 1px solid #000;
+	margin: 0 0 0 11em;
+	padding: 0 0 .5em .5em;
+}
+
+
+/* couleurs spécifiques Rarity */
+
+.rarity h1, .rarity dt, .rarity a{
+    color: #bebebe
+}
+
+.rarity h1:hover {
+  color: #8701c3
+}
+
+.rarity h2{
+    color:#8701c3
+}
+
+/* couleurs spécifiques Pinkypie */
+
+.pinkypie h1, .pinkypie dt, .pinkypie a {
+    color:pink
+}
+
+.pinkypie h1:hover {
+    color:#ff4d6c
+}
+
+.pinkypie h2 {
+    color:#ff4d6c
+}
+
+/* couleurs spécifiques AppleJack*/
+
+
+.applejack h1, .applejack dt {
+    color: #ff9e6b
+}
+
+.applejack h1:hover {
+    color:#fffa83
+}
+
+.applejack h2 {
+    color:#fffa83
+}
+
+
+/* non implemente */
+
+
+.rainbowdash h1, .rainbowdash dt {
+    color: #45a2ff
+}
+
+.rainbowdash h1:hover,
+.rainbowdash h2
+{
+    background-image:-webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text
+}
+
+
+
+.fluttershy h1, dt {
+    color: #ffff64
+}
+
+.fluttershy:hover h1 {
+    color: #ff76b0
+}
+
+.fluttershy h2 {
+    color:#ff76b0
+}
+
+.twilightsparkle h1, .twilightsparkle dt, .twilightsparkle a {
+    color:#ff87ff
+}
+
+.twilightsparkle h1:hover {
+    color: #9d00ff
+}
+
+
+.twilightsparkle h2 {
+    color:#9d00ff
+}
