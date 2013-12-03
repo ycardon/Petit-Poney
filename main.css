@@ -1,7 +1,8 @@
 html{
     font-family:fantasy;
     background-color:#4a4a4a;
-    color: white
+    color: #efefef;
+    z-index:-1    
 }
  
 .item {
@@ -16,16 +17,32 @@ body {
     -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
-    background-color:black
+    background-color:black;
+    z-index:1;
+        
 }
 
 img.photodemo {
-    width:40%;
-    position:fixed;
-    top:10px;
-    right:120px;
-    
-    
+    width:50%;
+    float:right;
+}
+
+/* Couleurs accueil */
+
+.accueil h1 {
+    background-image:-webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text
+}
+
+.acceuil a, .accueil a:visited {
+    color:#efefef
+}
+
+.accueil dt {
+    background-image:-webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text
 }
 
 /* tabeaux */
@@ -44,9 +61,9 @@ dt {
 }
 	
 dd {
-	border-left: 1px solid #000;
-	margin: 0 0 0 11em;
-	padding: 0 0 .5em .5em;
+	border-left: 1px solid grey;
+	margin: 0 0 0 10em;
+	padding: 0 0 .5em 1em;
 }
 
 
@@ -81,7 +98,7 @@ dd {
 /* couleurs spécifiques AppleJack*/
 
 
-.applejack h1, .applejack dt {
+.applejack h1, .applejack dt, .applejack a {
     color: #ff9e6b
 }
 
@@ -97,7 +114,7 @@ dd {
 /* non implemente */
 
 
-.rainbowdash h1, .rainbowdash dt {
+.rainbowdash h1, .rainbowdash dt, .rainbowdash a {
     color: #45a2ff
 }
 
@@ -111,11 +128,11 @@ dd {
 
 
 
-.fluttershy h1, dt {
-    color: #ffff64
+.fluttershy h1, .fluttershy dt, .fluttershy a {
+    color: #ffff86
 }
 
-.fluttershy:hover h1 {
+.fluttershy h1:hover {
     color: #ff76b0
 }
 
