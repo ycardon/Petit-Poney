@@ -22,6 +22,12 @@ body {
         
 }
 
+.création {
+    font-family:fantasy;
+    background-color:#4a4a4a;
+    color: #efefef;
+}
+
 img.photodemo {
     width:50%;
     float:right;
